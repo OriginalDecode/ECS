@@ -110,6 +110,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BaseComponent.h" />
+    <ClInclude Include="BaseSystem.h" />
+    <ClInclude Include="ComponentContainer.h" />
+    <ClInclude Include="ComponentFilter.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="EntityTypes.h" />
+    <ClInclude Include="GraphicsComponent.h" />
+    <ClInclude Include="RenderSystem.h" />
+    <ClInclude Include="TranslationComponent.h" />
+    <ClInclude Include="TypeID.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseSystem.cpp" />
+    <ClCompile Include="ComponentContainer.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="RenderSystem.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
