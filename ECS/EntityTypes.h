@@ -7,4 +7,4 @@ struct SBaseComponent;
 typedef unsigned int Entity;
 
 typedef std::vector<SBaseComponent*> ComponentArray;
-typedef std::array<unsigned int, MAX_COMPONENTS_COUNT> EntityComponentArray;
+typedef std::array<int, MAX_COMPONENTS_COUNT> EntityComponentArray;
